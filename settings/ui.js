@@ -168,7 +168,7 @@ FullScreenMario.prototype.settings.ui = {
         "Wide": {
             "width": Infinity,
             "height": 464,
-            "full": false
+            "full": true
         },
         "Large": {
             "width": Infinity,
