@@ -8365,93 +8365,39 @@ var FullScreenMario = (function(GameStartr) {
             npc = reference.npc || "Toad",
             output, texts, keys;
 
-        if (npc === "Toad") {
-            keys = ["1", "2"];
-            texts = [{
-                "thing": "CustomText",
-                "x": x + 164,
-                "y": y + 64,
-                "texts": [{
-                    "text": "THANK YOU MARIO!"
-                }],
-                "textAttributes": {
-                    "hidden": true
-                },
-                "collectionName": "endInsideCastleText",
-                "collectionKey": "1"
-            }, {
-                "thing": "CustomText",
-                "x": x + 152,
-                "y": y + 48,
-                "texts": [{
-                    "text": "BUT OUR PRINCESS IS IN"
-                }, {
-                    "text": "ANOTHER CASTLE!"
-                }],
-                "textAttributes": {
-                    "hidden": true
-                },
-                "collectionName": "endInsideCastleText",
-                "collectionKey": "2"
-            }];
-        } else if (npc === "Peach") {
-            keys = ["1", "2", "3"];
-            texts = [{
-                "thing": "CustomText",
-                "x": x + 164,
-                "y": y + 64,
-                "texts": [{
-                    "text": "THANK YOU MARIO!"
-                }],
-                "textAttributes": {
-                    "hidden": true
-                },
-                "collectionName": "endInsideCastleText",
-                "collectionKey": "1"
-            }, {
-                "thing": "CustomText",
-                "x": x + 152,
-                "y": y + 48,
-                "texts": [{
-                    "text": "YOUR QUEST IS OVER.",
-                    "offset": 12
-                }, {
-                    "text": "WE PRESENT YOU A NEW QUEST."
-                }],
-                "textAttributes": {
-                    "hidden": true
-                },
-                "collectionName": "endInsideCastleText",
-                "collectionKey": "2"
-            }, {
-                "thing": "CustomText", 
-                "x": x + 152,
-                "y": 32,
-                "texts": [{
-                    "text": "PRESS BUTTON B",
-                    "offset": 8
-                }, {
-                    "text": "TO SELECT A WORLD"
-                }],
-                "textAttributes": {
-                    "hidden": true
-                },
-                "collectionName": "endInsideCastleText",
-                "collectionKey": "3"
-            }];
-        }
-        
+        keys = ["1", "2", "3"];
+        texts = [{
+            "thing": "CustomText",
+            "x": x + 164,
+            "y": y + 64,
+            "texts": [
+                {"text": "BOHEE"},
+                {"text": "I LOVE YOU"}
+            ],
+            "textAttributes": {
+                "hidden": true
+            },
+            "collectionName": "endInsideCastleText",
+            "collectionKey": "1"
+        }, {
+            "thing": "CustomText",
+            "x": x + 152,
+            "y": y + 48,
+            "texts": [{
+                "text": "WILL YOU MARRY ME",
+                "offset": 12
+            }],
+            "textAttributes": {
+                "hidden": true
+            },
+            "collectionName": "endInsideCastleText",
+            "collectionKey": "2"
+        }];
         output = [
             { "thing": "Stone", "x": x, "y": y + 88, "width": 256 },
             { "macro": "Water", "x": x, "y": y, "width": 104 },
             // Bridge & Bowser area
             { "thing": "CastleBridge", "x": x, "y": y + 24, "width": 104 },
-            {
-                "thing": "Bowser", "x": x + 69, "y": y + 42,
-                "hard": reference.hard, 
-                "spawnType": reference.spawnType || "Goomba",
-                "throwing": reference.throwing
-            },
             { "thing": "CastleChain", "x": x + 96, "y": y + 32 },
             // Axe area
             { "thing": "CastleAxe", "x": x + 104, "y": y + 40 },
@@ -8468,15 +8414,15 @@ var FullScreenMario = (function(GameStartr) {
             // Peach's Magical Happy Chamber of Fantastic Love
             { 
                 "thing": "DetectCollision", "x": x + 180, 
-                "activate": scope.collideCastleNPC, 
+                "activate": scope.collideCastleNPC,
                 "transport": reference.transport,
                 "collectionName": "endInsideCastleText", 
                 "collectionKey": "npc", 
                 "collectionKeys": keys
             },
-            { "thing": npc, "x": x + 200, "y": 13 },
+            { "thing": "Peach", "x": x + 200, "y": 13 },
             { "thing": "ScrollBlocker", "x": x + 256 }
-        ]
+        ];
         
         if (reference.topScrollEnabler) {
             output.push({

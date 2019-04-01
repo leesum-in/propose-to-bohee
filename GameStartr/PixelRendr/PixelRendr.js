@@ -886,7 +886,7 @@ var PixelRendr = (function () {
                         // Isolate and split the new palette's numbers
                         paletteref = this.getPaletteReference(colors.slice(loc + 1, nixloc).split(","));
                         loc = nixloc + 1;
-                        if(Object.keys(paletteref).length > 10) {
+                        if(Object.keys(paletteref).length >= 10) {
                             digitsize = 2;
                         } else {
                             digitsize = 1;

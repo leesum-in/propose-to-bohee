@@ -201,19 +201,21 @@ FullScreenMario.prototype.settings.maps = {
         {
             "name": "1-1",
             "locations": [
-                {"area": 1},
                 {"entry": "Plain"},
+                {"entry": "PipeVertical"},
+                {"area": 1},
                 {"area": 2},
-                {"xloc": 128},
-                {"xloc": 168}
+                {"area": 3},
+                {"xloc": 2820},
+                {"xloc": 3370}
             ],
             "areas": [
                 {
                     "setting": "Overworld",
                     "blockBoundaries": true,
                     "creation": [
-                        {"macro": "Pattern", "pattern": "BackRegular", "repeat": 5},
-                        {"macro": "Floor", "width": 552},
+                        {"macro": "Pattern", "pattern": "BackRegular", "repeat": 15},
+                        {"macro": "Floor", "width": 3500},
                         { "thing": "DecorativeBack", "x": 20, "y": 88 },
                         {"thing": "DecorativeDot", "x": 21.5, "y": 46.5},
                         {"thing": "DecorativeDot", "x": 21.5, "y": 86.5},
@@ -238,130 +240,125 @@ FullScreenMario.prototype.settings.maps = {
                         {"thing": "DecorativeDot", "x": 105.5, "y": 86.5},
                         {
                             "thing": "CustomText", "x": 52, "y": 44, "texts": [
-                                {"text": "2OI8/OI/I4"}
+                                {"text": "2018/01/14"}
                             ]
                         },
-                        {"thing": "2017121601", "x": 20, "y": 88},
-                        {"thing": "2017121602", "x": 130, "y": 88},
-                        {"thing": "2017121603", "x": 240, "y": 88},
-                        {"thing": "Block", "x": 128, "y": 32, "contents": ["Vine", { "transport": 1 }]},
-                        {"thing": "Brick", "x": 160, "y": 32},
-                        {"thing": "Block", "x": 168, "y": 32, "contents": ["Vine", { "transport": 2 }]},
-                        {"thing": "Goomba", "x": 176, "y": 8},
-                        {"thing": "Brick", "x": 176, "y": 32},
-                        {"thing": "Block", "x": 176, "y": 64},
-                        {"thing": "Block", "x": 184, "y": 32},
-                        {"thing": "Brick", "x": 192, "y": 32},
-                        {"macro": "Pipe", "x": 224, "height": 16, "piranha": true},
-                        {"macro": "Pipe", "x": 304, "height": 24},
-                        {"thing": "Goomba", "x": 340, "y": 8},
-                        {"macro": "Pipe", "x": 368, "height": 32},
-                        {"thing": "Goomba", "x": 412, "y": 8},
-                        {"thing": "Goomba", "x": 422, "y": 8},
-                        {"macro": "Pipe", "x": 456, "height": 32},
-                        {"thing": "Block", "x": 512, "y": 40, "contents": "Mushroom1Up", "hidden": true},
-                        {"macro": "Floor", "x": 568, "width": 120},
-                        {"thing": "Brick", "x": 616, "y": 32},
-                        {"thing": "Block", "x": 624, "y": 32, "contents": "Mushroom"},
-                        {"thing": "Brick", "x": 632, "y": 32},
-                        {"thing": "Brick", "x": 640, "y": 32},
-                        {"thing": "Goomba", "x": 640, "y": 72},
-                        {"thing": "Brick", "x": 648, "y": 64},
-                        {"thing": "Brick", "x": 656, "y": 64},
-                        {"thing": "Goomba", "x": 656, "y": 72},
-                        {"macro": "Fill", "thing": "Brick", "x": 664, "y": 64, "xnum": 5, "xwidth": 8},
-                        {"macro": "Floor", "x": 712, "width": 512},
-                        {"macro": "Fill", "thing": "Brick", "x": 728, "y": 64, "xnum": 3, "xwidth": 8},
-                        {"thing": "Brick", "x": 752, "y": 32, "contents": "Coin"},
-                        {"thing": "Block", "x": 752, "y": 64},
-                        {"thing": "Goomba", "x": 776, "y": 8},
-                        {"thing": "Goomba", "x": 788, "y": 8},
-                        {"thing": "Brick", "x": 800, "y": 32},
-                        {"thing": "Brick", "x": 808, "y": 32, "contents": "Star"},
-                        {"thing": "Block", "x": 848, "y": 32},
-                        {"thing": "Koopa", "x": 856, "y": 12},
-                        {"thing": "Block", "x": 872, "y": 32},
-                        {"thing": "Block", "x": 872, "y": 64, "contents": "Mushroom"},
-                        {"thing": "Block", "x": 896, "y": 32},
-                        {"thing": "Goomba", "x": 912, "y": 8},
-                        {"thing": "Goomba", "x": 924, "y": 8},
-                        {"thing": "Brick", "x": 944, "y": 32},
-                        {"macro": "Fill", "thing": "Brick", "x": 968, "y": 64, "xnum": 3, "xwidth": 8},
-                        {"macro": "Fill", "thing": "Goomba", "x": 992, "y": 8, "xnum": 4, "xwidth": 16},
-                        {"thing": "Brick", "x": 1024, "y": 64},
-                        {"thing": "Brick", "x": 1032, "y": 32},
-                        {"thing": "Block", "x": 1032, "y": 64},
-                        {"thing": "Brick", "x": 1040, "y": 32},
-                        {"thing": "Block", "x": 1040, "y": 64},
-                        {"thing": "Brick", "x": 1048, "y": 64},
-                        {"thing": "Stone", "x": 1072, "y": 8},
-                        {"thing": "Stone", "x": 1080, "y": 16, "height": 16},
-                        {"thing": "Stone", "x": 1088, "y": 24, "height": 24},
-                        {"thing": "Stone", "x": 1096, "y": 32, "height": 32},
-                        {"thing": "Stone", "x": 1120, "y": 32, "height": 32},
-                        {"thing": "Stone", "x": 1128, "y": 24, "height": 24},
-                        {"thing": "Stone", "x": 1136, "y": 16, "height": 16},
-                        {"thing": "Stone", "x": 1144, "y": 8},
-                        {"thing": "Stone", "x": 1184, "y": 8},
-                        {"thing": "Stone", "x": 1192, "y": 16, "height": 16},
-                        {"thing": "Stone", "x": 1200, "y": 24, "height": 24},
-                        {"thing": "Stone", "x": 1208, "y": 32, "height": 32},
-                        {"thing": "Stone", "x": 1216, "y": 32, "height": 32},
-                        {"macro": "Floor", "x": 1240, "width": 656},
-                        {"thing": "Stone", "x": 1240, "y": 32, "height": 32},
-                        {"thing": "Stone", "x": 1248, "y": 24, "height": 24},
-                        {"thing": "Stone", "x": 1256, "y": 16, "height": 16},
-                        {"thing": "Stone", "x": 1264, "y": 8},
-                        {"macro": "Pipe", "x": 1304, "height": 16},
-                        {"thing": "Brick", "x": 1344, "y": 32},
-                        {"thing": "Brick", "x": 1352, "y": 32},
-                        {"thing": "Block", "x": 1360, "y": 32},
-                        {"thing": "Brick", "x": 1368, "y": 32},
-                        {"thing": "Goomba", "x": 1392, "y": 8},
-                        {"thing": "Goomba", "x": 1404, "y": 8},
-                        {"macro": "Pipe", "x": 1432, "height": 16},
-                        {"thing": "Stone", "x": 1448, "y": 8},
-                        {"thing": "Stone", "x": 1456, "y": 16, "height": 16},
-                        {"thing": "Stone", "x": 1464, "y": 24, "height": 24},
-                        {"thing": "Stone", "x": 1472, "y": 32, "height": 32},
-                        {"thing": "Stone", "x": 1480, "y": 40, "height": 40},
-                        {"thing": "Stone", "x": 1488, "y": 48, "height": 48},
-                        {"thing": "Stone", "x": 1496, "y": 56, "height": 56},
-                        {"thing": "Stone", "x": 1504, "y": 64, "height": 64, "width": 16},
-                        {"macro": "EndOutsideCastle", "x": 1584, "y": 0, "transport": {"map": "1-2"}}
-                    ]
-                }, {
-                    "setting": "Sky",
-                    "exit": 3,
-                    "creation": [
-                        { "thing": "Stone", "width": 32 },
-                        { "thing": "Stone", "x": 40, "width": 456 },
-                        { "macro": "Fill", "thing": "Coin", "x": 121, "y": 55, "xnum": 16, "xwidth": 8 },
-                        { "thing": "Platform", "x": 128, "y": 24, "width": 24, "transport": true },
-                        {"thing": "2017121601", "x": 20, "y": 88},
-                        {"thing": "2017121602", "x": 130, "y": 88},
-                        {"thing": "2017121603", "x": 240, "y": 88},
-                        { "macro": "Fill", "thing": "Coin", "x": 257, "y": 71, "xnum": 3, "xwidth": 8 },
-                        { "macro": "Fill", "thing": "Coin", "x": 289, "y": 63, "xnum": 16, "xwidth": 8 },
-                        { "macro": "Fill", "thing": "Coin", "x": 425, "y": 71, "xnum": 3, "xwidth": 8 },
-                        { "macro": "Fill", "thing": "Coin", "x": 553, "y": 7, "xnum": 3, "xwidth": 8 }
+
+                        {"thing": "pic1", "x": 300, "y": 88},
+                        {
+                            "thing": "CustomText", "x": 310, "y": 30, "texts": [
+                                {"text": "WE MEET!"}
+                            ]
+                        },
+                        {"thing": "pic2", "x": 410, "y": 88},
+                        {"thing": "pic3", "x": 520, "y": 88},
+                        {"thing": "pic4", "x": 630, "y": 88},
+                        {"thing": "pic5", "x": 740, "y": 88},
+                        {
+                            "thing": "Coin",
+                            "x": 790,
+                            "y": 30
+                        },
+                        {"thing": "pic6", "x": 850, "y": 88},
+                        { "thing": "Block", "x": 900, "y": 32, "contents": "Star" },
+                        {"thing": "pic7", "x": 960, "y": 88},
+                        {"thing": "pic8", "x": 1070, "y": 88},
+                        {"thing": "pic9", "x": 1210, "y": 105},
+                        {"thing": "pic10", "x": 1290, "y": 88},
+                        {"thing": "pic11", "x": 1430, "y": 105},
+                        {"thing": "pic12", "x": 1510, "y": 88},
+                        {"thing": "pic13", "x": 1620, "y": 88},
+                        {"thing": "pic14", "x": 1730, "y": 88},
+                        {"thing": "pic15", "x": 1840, "y": 88},
+                        { "macro": "Pipe", "x": 1970, "height": 16, "transport": 2},
+                        {
+                            "thing": "CustomText", "x": 1970, "y": 20, "texts": [
+                                {"text": "BUSAN"}
+                            ]
+                        },
+                        {"thing": "Coin","x": 1975,"y": 25},
+                        {"thing": "Coin","x": 1975,"y": 30},
+                        {"thing": "Coin","x": 1975,"y": 35},
+                        {"thing": "Coin","x": 1975,"y": 40},
+                        {"thing": "Coin","x": 1975,"y": 45},
+                        {"thing": "Coin","x": 1970,"y": 28},
+                        {"thing": "Coin","x": 1965,"y": 30},
+                        {"thing": "Coin","x": 1980,"y": 28},
+                        {"thing": "Coin","x": 1985,"y": 30},
+                        { "macro": "Pipe", "x": 2150, "height": 16, "entrance": 1 },
+                        {"thing": "pic16", "x": 2170, "y": 88},
+                        {"thing": "pic17", "x": 2280, "y": 88},
+                        {"thing": "pic18", "x": 2390, "y": 88},
+                        {"thing": "pic19", "x": 2500, "y": 88},
+                        {"thing": "pic20", "x": 2610, "y": 88},
+                        {"thing": "Block", "x": 2740, "y": 32, "contents": ["Vine", { "transport": 3 }]},
+                        {
+                            "thing": "CustomText", "x": 2740, "y": 37, "texts": [
+                                {"text": "JEJU"}
+                            ]
+                        },
+                        {"thing": "pic21", "x": 2830, "y": 88},
+                        {"thing": "pic22", "x": 2940, "y": 88},
+                        {"thing": "pic23", "x": 3050, "y": 88},
+                        {"thing": "pic24", "x": 3160, "y": 88},
+                        {"thing": "Block", "x": 3290, "y": 32, "contents": ["Vine", { "transport": 4 }]},
+                        {
+                            "thing": "CustomText", "x": 3290, "y": 37, "texts": [
+                                {"text": "BANGKOK"}
+                            ]
+                        },
+                        {"thing": "pic25", "x": 3380, "y": 88},
+                        { "macro": "EndInsideCastle", "x": 3490}
                     ]
                 },
                 {
                     "setting": "Underworld",
-                    "exit": 4,
+                    "blockBoundaries": true,
                     "creation": [
-                        { "thing": "Stone", "width": 32 },
-                        { "thing": "Stone", "x": 40, "width": 456 },
-                        { "macro": "Fill", "thing": "Coin", "x": 121, "y": 55, "xnum": 16, "xwidth": 8 },
-                        { "thing": "Platform", "x": 128, "y": 24, "width": 24, "transport": true },
-                        {"thing": "DecorativeBack", "x": 20, "y": 88},
-                        { "macro": "Fill", "thing": "Coin", "x": 257, "y": 71, "xnum": 3, "xwidth": 8 },
-                        { "macro": "Fill", "thing": "Coin", "x": 289, "y": 63, "xnum": 16, "xwidth": 8 },
-                        { "macro": "Fill", "thing": "Coin", "x": 425, "y": 71, "xnum": 3, "xwidth": 8 },
-                        { "macro": "Fill", "thing": "Coin", "x": 553, "y": 7, "xnum": 3, "xwidth": 8 }
+                        { "macro": "Ceiling", "x": 32, "width": 720 },
+                        { "macro": "Floor", "x": 0, "y": 0, "width": 800},
+                        { "macro": "Fill", "thing": "Brick", "x": 0, "y": 8, "ynum": 11, "yheight": 8 },
+                        {"thing": "busan1", "x": 100, "y": 70},
+                        {"thing": "busan2", "x": 210, "y": 70},
+                        {"thing": "busan3", "x": 320, "y": 70},
+                        {"thing": "busan4", "x": 430, "y": 70},
+                        {"thing": "busan5", "x": 540, "y": 70},
+                        {"thing": "busan6", "x": 650, "y": 70},
+                        { "thing": "PipeHorizontal", "x": 760, "y": 16, "transport": 1, "width": 16 },
+                        { "thing": "PipeVertical", "x": 776, "y": 88, "height": 88 },
+                        { "macro": "Fill", "thing": "Brick", "x": 792, "y": 8, "ynum": 11, "yheight": 8 }
                     ]
                 },
+                {
+                    "setting": "Sky",
+                    "exit": 5,
+                    "creation": [
+                        { "thing": "Stone", "x": 0, "width": 655 },
+                        { "thing": "Platform", "x": 128, "y": 24, "width": 24, "transport": true },
+                        {"thing": "jeju1", "x": 100, "y": 88},
+                        {"thing": "jeju2", "x": 210, "y": 88},
+                        {"thing": "jeju3", "x": 320, "y": 88},
+                        {"thing": "jeju4", "x": 430, "y": 88},
+                        {"thing": "jeju5", "x": 540, "y": 88}
+                    ]
+                },
+                {
+                    "setting": "Sky",
+                    "exit": 6,
+                    "creation": [
+                        { "thing": "Stone", "x": 0, "width": 992 },
+                        { "thing": "Platform", "x": 128, "y": 24, "width": 24, "transport": true },
+                        {"thing": "th1", "x": 100, "y": 88},
+                        {"thing": "th2", "x": 210, "y": 88},
+                        {"thing": "th3", "x": 320, "y": 88},
+                        {"thing": "th4", "x": 430, "y": 88},
+                        {"thing": "th5", "x": 540, "y": 88},
+                        {"thing": "th6", "x": 650, "y": 88},
+                        {"thing": "th7", "x": 760, "y": 88},
+                        {"thing": "th8", "x": 900, "y": 105},
+                        {"thing": "th9", "x": 980, "y": 88}
+                    ]
+                }
             ]
         }
     ])
