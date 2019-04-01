@@ -8371,8 +8371,8 @@ var FullScreenMario = (function(GameStartr) {
             "x": x + 164,
             "y": y + 64,
             "texts": [
-                {"text": "BOHEE"},
-                {"text": "I LOVE YOU"}
+                {"text": "I LOVE YOU."},
+                {"text": "BOHEE."}
             ],
             "textAttributes": {
                 "hidden": true
@@ -8384,7 +8384,7 @@ var FullScreenMario = (function(GameStartr) {
             "x": x + 152,
             "y": y + 48,
             "texts": [{
-                "text": "WILL YOU MARRY ME",
+                "text": "WILL YOU MARRY ME.",
                 "offset": 12
             }],
             "textAttributes": {

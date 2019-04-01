@@ -158,7 +158,7 @@ FullScreenMario.prototype.settings.ui = {
             }]
         }
     },
-    "sizeDefault": "Wide",
+    "sizeDefault": "NES",
     "sizes": {
         "NES": {
             "width": 512,

@@ -201,11 +201,11 @@ FullScreenMario.prototype.settings.maps = {
         {
             "name": "1-1",
             "locations": [
-                {"entry": "Plain"},
+                {"xloc": 0},
                 {"entry": "PipeVertical"},
                 {"area": 1},
-                {"area": 2},
-                {"area": 3},
+                {"area": 2, "entry": "Vine"},
+                {"area": 3, "entry": "Vine"},
                 {"xloc": 2820},
                 {"xloc": 3370}
             ],
@@ -243,6 +243,36 @@ FullScreenMario.prototype.settings.maps = {
                                 {"text": "2018/01/14"}
                             ]
                         },
+                        { "thing": "Block", "x": 110, "y": 32, "contents": "Mushroom" },
+                        { "thing": "Stone", "x": 148, "y": 8 },
+                        { "thing": "Stone", "x": 156, "y": 16, "height": 16 },
+                        { "thing": "Stone", "x": 164, "y": 24, "height": 24 },
+                        { "thing": "Stone", "x": 172, "y": 32, "height": 32 },
+                        { "thing": "Stone", "x": 180, "y": 40, "height": 40 },
+                        { "thing": "Stone", "x": 188, "y": 48, "height": 48 },
+                        { "thing": "Stone", "x": 196, "y": 56, "height": 56 },
+                        { "thing": "Stone", "x": 204, "y": 64, "height": 64, "width": 16 },
+                        { "thing": "Goomba", "x": 320, "y": 8 },
+                        { "thing": "Goomba", "x": 340, "y": 8 },
+                        { "thing": "Goomba", "x": 540, "y": 8 },
+                        { "thing": "Goomba", "x": 560, "y": 8 },
+                        { "thing": "Goomba", "x": 760, "y": 8 },
+                        { "thing": "Goomba", "x": 860, "y": 8 },
+                        { "thing": "Goomba", "x": 1060, "y": 8 },
+                        { "thing": "Goomba", "x": 1065, "y": 8 },
+                        { "thing": "Goomba", "x": 1070, "y": 8 },
+                        { "thing": "Goomba", "x": 1075, "y": 8 },
+                        { "thing": "Goomba", "x": 1080, "y": 8 },
+                        { "thing": "Goomba", "x": 1085, "y": 8 },
+                        { "thing": "Goomba", "x": 1090, "y": 8 },
+                        { "thing": "Goomba", "x": 1095, "y": 8 },
+                        { "thing": "Goomba", "x": 1100, "y": 8 },
+                        { "thing": "Goomba", "x": 1260, "y": 8 },
+                        { "thing": "Goomba", "x": 1360, "y": 8 },
+                        { "thing": "Goomba", "x": 1560, "y": 8 },
+                        { "thing": "Goomba", "x": 1860, "y": 8 },
+                        { "thing": "Goomba", "x": 2160, "y": 8 },
+                        { "thing": "Goomba", "x": 3060, "y": 8 },
 
                         {"thing": "pic1", "x": 300, "y": 88},
                         {
@@ -285,6 +315,7 @@ FullScreenMario.prototype.settings.maps = {
                         {"thing": "Coin","x": 1965,"y": 30},
                         {"thing": "Coin","x": 1980,"y": 28},
                         {"thing": "Coin","x": 1985,"y": 30},
+                        {"thing": "Coin","x": 1975,"y": 30},
                         { "macro": "Pipe", "x": 2150, "height": 16, "entrance": 1 },
                         {"thing": "pic16", "x": 2170, "y": 88},
                         {"thing": "pic17", "x": 2280, "y": 88},
@@ -293,20 +324,40 @@ FullScreenMario.prototype.settings.maps = {
                         {"thing": "pic20", "x": 2610, "y": 88},
                         {"thing": "Block", "x": 2740, "y": 32, "contents": ["Vine", { "transport": 3 }]},
                         {
-                            "thing": "CustomText", "x": 2740, "y": 37, "texts": [
+                            "thing": "CustomText", "x": 2737, "y": 70, "texts": [
                                 {"text": "JEJU"}
                             ]
                         },
+                        {"thing": "Coin","x": 2741,"y": 40},
+                        {"thing": "Coin","x": 2741,"y": 45},
+                        {"thing": "Coin","x": 2741,"y": 50},
+                        {"thing": "Coin","x": 2741,"y": 55},
+                        {"thing": "Coin","x": 2741,"y": 60},
+                        {"thing": "Coin","x": 2741,"y": 65},
+                        {"thing": "Coin","x": 2736,"y": 60},
+                        {"thing": "Coin","x": 2746,"y": 60},
+                        {"thing": "Coin","x": 2731,"y": 55},
+                        {"thing": "Coin","x": 2751,"y": 55},
                         {"thing": "pic21", "x": 2830, "y": 88},
                         {"thing": "pic22", "x": 2940, "y": 88},
                         {"thing": "pic23", "x": 3050, "y": 88},
                         {"thing": "pic24", "x": 3160, "y": 88},
                         {"thing": "Block", "x": 3290, "y": 32, "contents": ["Vine", { "transport": 4 }]},
                         {
-                            "thing": "CustomText", "x": 3290, "y": 37, "texts": [
+                            "thing": "CustomText", "x": 3280, "y": 70, "texts": [
                                 {"text": "BANGKOK"}
                             ]
                         },
+                        {"thing": "Coin","x": 3291,"y": 40},
+                        {"thing": "Coin","x": 3291,"y": 45},
+                        {"thing": "Coin","x": 3291,"y": 50},
+                        {"thing": "Coin","x": 3291,"y": 55},
+                        {"thing": "Coin","x": 3291,"y": 60},
+                        {"thing": "Coin","x": 3291,"y": 65},
+                        {"thing": "Coin","x": 3286,"y": 60},
+                        {"thing": "Coin","x": 3296,"y": 60},
+                        {"thing": "Coin","x": 3281,"y": 55},
+                        {"thing": "Coin","x": 3301,"y": 55},
                         {"thing": "pic25", "x": 3380, "y": 88},
                         { "macro": "EndInsideCastle", "x": 3490}
                     ]
@@ -333,7 +384,8 @@ FullScreenMario.prototype.settings.maps = {
                     "setting": "Sky",
                     "exit": 5,
                     "creation": [
-                        { "thing": "Stone", "x": 0, "width": 655 },
+                        { "thing": "Stone", "x": 0, "width": 32 },
+                        { "thing": "Stone", "x": 40, "width": 655 },
                         { "thing": "Platform", "x": 128, "y": 24, "width": 24, "transport": true },
                         {"thing": "jeju1", "x": 100, "y": 88},
                         {"thing": "jeju2", "x": 210, "y": 88},
@@ -343,10 +395,11 @@ FullScreenMario.prototype.settings.maps = {
                     ]
                 },
                 {
-                    "setting": "Sky",
+                    "setting": "Sky Night",
                     "exit": 6,
                     "creation": [
-                        { "thing": "Stone", "x": 0, "width": 992 },
+                        { "thing": "Stone", "x": 0, "width": 32 },
+                        { "thing": "Stone", "x": 40, "width": 992 },
                         { "thing": "Platform", "x": 128, "y": 24, "width": 24, "transport": true },
                         {"thing": "th1", "x": 100, "y": 88},
                         {"thing": "th2", "x": 210, "y": 88},

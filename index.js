@@ -6,5 +6,5 @@ document.onreadystatechange = function (event) {
     var UserWrapper = new UserWrappr(FullScreenMario.prototype.proliferate({
             "GameStartrConstructor": FullScreenMario
         }, FullScreenMario.prototype.settings.ui, true));
-
+    window.UserWrapper = UserWrapper;
 };

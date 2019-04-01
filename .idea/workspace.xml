@@ -4,10 +4,10 @@
     <list default="true" id="ae63081b-52c7-4a0f-9f14-8c4f1f50ca7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FullScreenMario.js" beforeDir="false" afterPath="$PROJECT_DIR$/FullScreenMario.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameStartr/PixelRendr/PixelRendr.js" beforeDir="false" afterPath="$PROJECT_DIR$/GameStartr/PixelRendr/PixelRendr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings/maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/settings/maps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/objects.js" beforeDir="false" afterPath="$PROJECT_DIR$/settings/objects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/sprites.js" beforeDir="false" afterPath="$PROJECT_DIR$/settings/sprites.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/settings/ui.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +32,8 @@
         <counts>
           <entry key="css" value="5" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="15" />
-          <entry key="js" value="530" />
+          <entry key="html" value="23" />
+          <entry key="js" value="581" />
           <entry key="json" value="2" />
           <entry key="md" value="9" />
           <entry key="png" value="1" />
@@ -43,10 +43,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="15" />
+          <entry key="HTML" value="23" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="530" />
+          <entry key="JavaScript" value="581" />
           <entry key="Markdown" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="4" />
@@ -55,15 +55,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="140" />
-          <entry key="html" value="40" />
-          <entry key="js" value="4088" />
+          <entry key="html" value="391" />
+          <entry key="js" value="4429" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="140" />
-          <entry key="HTML" value="40" />
-          <entry key="JavaScript" value="4088" />
+          <entry key="HTML" value="391" />
+          <entry key="JavaScript" value="4429" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -76,24 +76,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/settings/maps.js">
+        <entry file="file://$PROJECT_DIR$/settings/sprites.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="203" column="32" selection-start-line="203" selection-start-column="32" selection-end-line="203" selection-end-column="32" />
+            <state relative-caret-position="259">
+              <caret line="836" column="6535" lean-forward="true" selection-start-line="836" selection-start-column="21" selection-end-line="836" selection-end-column="6535" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>debugg</find>
-      <find>debugger</find>
-      <find>hill</find>
-      <find>back</find>
-      <find>test1</find>
-      <find>settings</find>
       <find>width</find>
       <find>blockSize</find>
       <find>customs</find>
@@ -102,7 +103,6 @@
       <find>unitsize</find>
       <find>Cloud</find>
       <find>test12</find>
-      <find>sky</find>
       <find>spriteRepeatRows</find>
       <find>entrance</find>
       <find>macroIn</find>
@@ -118,12 +118,19 @@
       <find>text</find>
       <find>texti</find>
       <find>TextI</find>
+      <find>sky</find>
+      <find>triggers</find>
+      <find>FSM</find>
+      <find>FullScreenMario</find>
+      <find>GameStartrCons</find>
+      <find>GameStarter</find>
+      <find>keyup</find>
     </findStrings>
     <dirStrings>
-      <dir>C:\workspace\FullScreenMario\GameStartr</dir>
       <dir>C:\workspace\FullScreenMario\Theme</dir>
       <dir>C:\workspace\FullScreenMario</dir>
       <dir>C:\workspace\FullScreenMario\settings</dir>
+      <dir>C:\workspace\FullScreenMario\GameStartr</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -135,17 +142,20 @@
         <option value="$PROJECT_DIR$/GameStartr/utils/ImageReadr/ImageReadr.js" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/dist/index.min.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/GameStartr/LevelEditr/LevelEditr.js" />
-        <option value="$PROJECT_DIR$/settings/ui.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/GameStartr/PixelRendr/PixelRendr.js" />
         <option value="$PROJECT_DIR$/settings/maps.origin.js" />
-        <option value="$PROJECT_DIR$/FullScreenMario.js" />
         <option value="$PROJECT_DIR$/settings/objects.js" />
-        <option value="$PROJECT_DIR$/settings/sprites.js" />
+        <option value="$PROJECT_DIR$/FullScreenMario.js" />
         <option value="$PROJECT_DIR$/settings/maps.js" />
+        <option value="$PROJECT_DIR$/settings/ui.js" />
+        <option value="$PROJECT_DIR$/joystic.js" />
+        <option value="$PROJECT_DIR$/joystick.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/touchcontroller.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/settings/sprites.js" />
       </list>
     </option>
   </component>
@@ -185,42 +195,6 @@
             <path>
               <item name="FullScreenMario" type="b2602c69:ProjectViewProjectNode" />
               <item name="FullScreenMario" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullScreenMario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenMario" type="462c0819:PsiDirectoryNode" />
-              <item name="GameStartr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullScreenMario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenMario" type="462c0819:PsiDirectoryNode" />
-              <item name="GameStartr" type="462c0819:PsiDirectoryNode" />
-              <item name="PixelRendr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullScreenMario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenMario" type="462c0819:PsiDirectoryNode" />
-              <item name="GameStartr" type="462c0819:PsiDirectoryNode" />
-              <item name="PixelRendr" type="462c0819:PsiDirectoryNode" />
-              <item name="PixelRendr.ts" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="FullScreenMario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenMario" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullScreenMario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenMario" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="typescript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullScreenMario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenMario" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="typescript" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FullScreenMario" type="b2602c69:ProjectViewProjectNode" />
@@ -313,12 +287,12 @@
       <workItem from="1550303948824" duration="2411000" />
       <workItem from="1551024575980" duration="598000" />
       <workItem from="1552293721853" duration="17495000" />
-      <workItem from="1554098237449" duration="17850000" />
+      <workItem from="1554098237449" duration="23932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42664000" />
+    <option name="totallyTimeSpent" value="48746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -426,16 +400,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameStartr/GameStartr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="657" column="8" selection-start-line="657" selection-start-column="8" selection-end-line="657" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings/input.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/settings/audio.js">
@@ -591,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameStartr/UserWrappr/UserWrappr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="61" column="43" lean-forward="true" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -612,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GameStartr/LevelEditr/LevelEditr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -630,20 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="229" column="5" selection-start-line="229" selection-start-column="5" selection-end-line="229" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings/ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="160" column="24" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -678,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FullScreenMario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="8386" column="44" lean-forward="true" selection-start-line="8386" selection-start-column="44" selection-end-line="8386" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings/objects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -696,24 +625,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings/sprites.js">
+    <entry file="file://$PROJECT_DIR$/settings/maps.origin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="898" column="69" selection-start-line="898" selection-start-column="69" selection-end-line="898" selection-end-column="69" />
+        <state relative-caret-position="297">
+          <caret line="306" column="24" selection-start-line="306" selection-start-column="24" selection-end-line="306" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings/maps.origin.js">
+    <entry file="file://$PROJECT_DIR$/GameStartr/GameStartr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3169">
-          <caret line="359" column="59" lean-forward="true" selection-start-line="359" selection-start-column="59" selection-end-line="359" selection-end-column="59" />
+        <state relative-caret-position="11826">
+          <caret line="657" column="8" selection-start-line="657" selection-start-column="8" selection-end-line="657" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="160" column="23" selection-start-line="160" selection-start-column="23" selection-end-line="160" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameStartr/UserWrappr/UserWrappr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="383" column="55" selection-start-line="383" selection-start-column="44" selection-end-line="383" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FullScreenMario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="662" column="41" selection-start-line="662" selection-start-column="41" selection-end-line="662" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joystick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="418" column="1" selection-start-line="418" selection-start-column="1" selection-end-line="418" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/touchcontroller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="152" column="2" selection-start-line="152" selection-start-column="2" selection-end-line="152" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings/maps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="203" column="32" selection-start-line="203" selection-start-column="32" selection-end-line="203" selection-end-column="32" />
+        <state relative-caret-position="349">
+          <caret line="260" column="50" selection-start-line="260" selection-start-column="50" selection-end-line="260" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/sprites.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="836" column="6535" lean-forward="true" selection-start-line="836" selection-start-column="21" selection-end-line="836" selection-end-column="6535" />
         </state>
       </provider>
     </entry>
